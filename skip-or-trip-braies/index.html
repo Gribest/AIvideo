@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Lago di Braies: Skip or Trip?</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --yellow:#FFD60A; --ink:#ffffff; --trip:#16A34A; --skip:#DC2626; --font:"Inter", sans-serif; }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:#0b0b0b; }
+      #root { position:relative; width:1080px; height:1920px; overflow:hidden; font-family:var(--font); background:#0b0b0b; }
+      .shot { position:absolute; left:0; top:0; width:1080px; height:1920px; object-fit:cover; transform-origin:50% 45%; }
+      /* text lives left of the right-hand button rail and above the bottom 20% */
+      .cap { position:absolute; left:40px; width:920px; height:320px; display:flex; align-items:center; justify-content:center; text-align:center; overflow:visible; }
+      .capin { font-weight:900; font-size:84px; line-height:1.08; letter-spacing:-0.01em; color:var(--ink);
+        -webkit-text-stroke:10px rgba(0,0,0,0.85); paint-order:stroke fill; text-shadow:0 6px 18px rgba(0,0,0,0.45); }
+      .key { color:var(--yellow); }
+      .hook { position:absolute; left:40px; width:920px; top:250px; height:300px; display:flex; align-items:center; justify-content:center; }
+      .hookin { background:var(--yellow); color:#0b0b0b; font-weight:900; font-size:80px; line-height:1.05; text-align:center;
+        padding:22px 40px 26px; border-radius:22px; box-shadow:0 10px 30px rgba(0,0,0,0.35); letter-spacing:-0.015em; }
+      .big { position:absolute; left:0; width:1000px; top:560px; height:400px; display:flex; align-items:center; justify-content:center; }
+      .butin { font-weight:900; font-size:300px; color:#fff; letter-spacing:-0.03em; -webkit-text-stroke:14px #0b0b0b; paint-order:stroke fill; text-shadow:0 14px 40px rgba(0,0,0,0.55); }
+      .verdict { position:absolute; left:0; width:1000px; top:560px; height:560px; display:flex; align-items:center; justify-content:center; }
+      .vin { display:flex; flex-direction:column; align-items:center; gap:22px; }
+      .vlabel { background:#fff; color:#0b0b0b; font-weight:900; font-size:46px; letter-spacing:0.18em; padding:10px 28px 12px; border-radius:999px; }
+      .vcard { color:#fff; font-weight:900; font-size:230px; line-height:1; padding:34px 70px 44px; border:12px solid #fff; border-radius:40px;
+        letter-spacing:-0.02em; box-shadow:0 18px 50px rgba(0,0,0,0.45); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="33.5" data-width="1080" data-height="1920">
+      <img id="hook" class="clip shot" src="assets/stills/p8_family_boat.jpg" data-start="0.0" data-duration="2.0" data-track-index="0" alt="" style="z-index:1">
+      <video id="dock" class="clip shot" src="assets/shots/s02_dock.mp4" data-start="2.0" data-duration="1.4" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <video id="tilt" class="clip shot" src="assets/shots/s03_tilt.mp4" data-start="3.4" data-duration="2.0" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <video id="lake" class="clip shot" src="assets/shots/s04_lake.mp4" data-start="5.4" data-duration="2.6" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <img id="boats" class="clip shot" src="assets/stills/p1_boats.jpg" data-start="8.0" data-duration="1.5" data-track-index="0" alt="" style="z-index:1">
+      <video id="bench" class="clip shot" src="assets/shots/s06_bench.mp4" data-start="9.5" data-duration="2.5" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <img id="rowing" class="clip shot" src="assets/stills/p2_rowing.jpg" data-start="12.0" data-duration="1.5" data-track-index="0" alt="" style="z-index:1">
+      <video id="water" class="clip shot" src="assets/shots/s08_water.mp4" data-start="13.5" data-duration="2.5" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <img id="larches" class="clip shot" src="assets/stills/p6_larches.jpg" data-start="16.0" data-duration="1.5" data-track-index="0" alt="" style="z-index:1">
+      <video id="smile" class="clip shot" src="assets/shots/s10_smile.mp4" data-start="17.5" data-duration="0.8" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <img id="us" class="clip shot" src="assets/stills/p3_us.jpg" data-start="18.3" data-duration="1.7" data-track-index="0" alt="" style="z-index:1">
+      <img id="crowd" class="clip shot" src="assets/stills/p5_dock.jpg" data-start="20.0" data-duration="2.5" data-track-index="0" alt="" style="z-index:1">
+      <img id="shore" class="clip shot" src="assets/stills/p4_shore.jpg" data-start="22.5" data-duration="2.0" data-track-index="0" alt="" style="z-index:1">
+      <video id="forest" class="clip shot" src="assets/shots/s14_forest.mp4" data-start="24.5" data-duration="3.0" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <video id="back" class="clip shot" src="assets/shots/s15_back.mp4" data-start="27.5" data-duration="2.0" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <video id="cliffs" class="clip shot" src="assets/shots/s16_cliffs.mp4" data-start="29.5" data-duration="1.5" data-track-index="0" muted playsinline style="z-index:1"></video>
+      <img id="loop" class="clip shot" src="assets/stills/p8_family_boat.jpg" data-start="31.0" data-duration="2.5" data-track-index="0" alt="" style="z-index:1">
+      <div id="hookbox" class="clip hook" data-start="0.0" data-duration="2.0" data-track-index="1" style="z-index:50"><div class="hookin">Lago di Braies:<br>Skip or Trip?</div></div>
+      <div id="hookbox2" class="clip hook" data-start="32.65" data-duration="0.85" data-track-index="1" style="z-index:50"><div class="hookin">Lago di Braies:<br>Skip or Trip?</div></div>
+      <div id="c01" class="clip cap" data-start="2.1" data-duration="1.25" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Dolomites, <span class="key">Italy</span></div></div>
+      <div id="c02" class="clip cap" data-start="3.5" data-duration="1.85" data-track-index="2" style="top:400px;z-index:50"><div class="capin">~1,500 m <span class="key">up</span></div></div>
+      <div id="c03" class="clip cap" data-start="5.5" data-duration="2.45" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Rowboat: <span class="key">~€50</span><br>for 45 min</div></div>
+      <div id="c04" class="clip cap" data-start="8.1" data-duration="1.35" data-track-index="2" style="top:360px;z-index:50"><div class="capin">Classic <span class="key">wooden</span> boats</div></div>
+      <div id="c05" class="clip cap" data-start="9.6" data-duration="2.35" data-track-index="2" style="top:310px;z-index:50"><div class="capin">Row right under<br><span class="key">the peaks</span></div></div>
+      <div id="c06" class="clip cap" data-start="13.6" data-duration="2.35" data-track-index="2" style="top:400px;z-index:50"><div class="capin"><span class="key">Glass</span>-clear water</div></div>
+      <div id="c07" class="clip cap" data-start="16.1" data-duration="1.35" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Larches turning <span class="key">gold</span></div></div>
+      <div id="c08" class="clip cap" data-start="18.4" data-duration="1.55" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Family <span class="key">approved</span></div></div>
+      <div id="c09" class="clip cap" data-start="21.05" data-duration="1.4" data-track-index="2" style="top:480px;z-index:50"><div class="capin">Crowds at the <span class="key">dock</span></div></div>
+      <div id="c10" class="clip cap" data-start="22.6" data-duration="1.85" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Autumn = <span class="key">low water</span></div></div>
+      <div id="c11" class="clip cap" data-start="24.6" data-duration="1.25" data-track-index="2" style="top:400px;z-index:50"><div class="capin"><span class="key">P4</span> parking = pricey</div></div>
+      <div id="c12" class="clip cap" data-start="25.9" data-duration="1.55" data-track-index="2" style="top:400px;z-index:50"><div class="capin">Park at <span class="key">P3 or P2</span></div></div>
+      <div id="but" class="clip big" data-start="20.0" data-duration="1.0" data-track-index="3" style="z-index:50"><div class="butin">BUT</div></div>
+      <div id="verdict" class="clip verdict" data-start="27.8" data-duration="3.2" data-track-index="4" style="z-index:51"><div class="vin"><div class="vlabel">VERDICT</div><div class="vcard" style="background:var(--trip)">TRIP</div></div></div>
+      <audio id="music" class="clip" src="assets/audio/music_bed.wav" data-start="0" data-duration="33.5" data-track-index="10" data-volume="0.5"></audio>
+      <audio id="sfx00" class="clip" src="assets/audio/whoosh.wav" data-start="1.8" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx01" class="clip" src="assets/audio/tick.wav" data-start="2.1" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx02" class="clip" src="assets/audio/tick.wav" data-start="3.5" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx03" class="clip" src="assets/audio/whoosh.wav" data-start="5.2" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx04" class="clip" src="assets/audio/tick.wav" data-start="5.5" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx05" class="clip" src="assets/audio/whoosh.wav" data-start="7.8" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx06" class="clip" src="assets/audio/tick.wav" data-start="8.1" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx07" class="clip" src="assets/audio/whoosh.wav" data-start="9.3" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx08" class="clip" src="assets/audio/tick.wav" data-start="9.6" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx09" class="clip" src="assets/audio/whoosh.wav" data-start="13.3" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx10" class="clip" src="assets/audio/tick.wav" data-start="13.6" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx11" class="clip" src="assets/audio/tick.wav" data-start="16.1" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx12" class="clip" src="assets/audio/whoosh.wav" data-start="17.3" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx13" class="clip" src="assets/audio/tick.wav" data-start="18.4" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx14" class="clip" src="assets/audio/hit.wav" data-start="20.0" data-duration="1.0" data-track-index="13" data-volume="0.9"></audio>
+      <audio id="sfx15" class="clip" src="assets/audio/tick.wav" data-start="21.05" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx16" class="clip" src="assets/audio/tick.wav" data-start="22.6" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx17" class="clip" src="assets/audio/whoosh.wav" data-start="24.3" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx18" class="clip" src="assets/audio/tick.wav" data-start="24.6" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx19" class="clip" src="assets/audio/tick.wav" data-start="25.9" data-duration="0.06" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx20" class="clip" src="assets/audio/stamp.wav" data-start="27.8" data-duration="1.4" data-track-index="13" data-volume="0.9"></audio>
+      <audio id="sfx21" class="clip" src="assets/audio/whoosh.wav" data-start="29.3" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+      <audio id="sfx22" class="clip" src="assets/audio/whoosh.wav" data-start="30.8" data-duration="0.45" data-track-index="11" data-volume="0.55"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#hook",{scale:1},{scale:1.07,duration:2.0,ease:"none"},0.0);
+      tl.fromTo("#dock",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},2.0);
+      tl.fromTo("#tilt",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},3.4);
+      tl.fromTo("#lake",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},5.4);
+      tl.fromTo("#boats",{scale:1.0},{scale:1.09,duration:1.5,ease:"none"},8.0);
+      tl.fromTo("#bench",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},9.5);
+      tl.fromTo("#rowing",{scale:1.0},{scale:1.09,duration:1.5,ease:"none"},12.0);
+      tl.fromTo("#water",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},13.5);
+      tl.fromTo("#larches",{scale:1.0},{scale:1.09,duration:1.5,ease:"none"},16.0);
+      tl.fromTo("#smile",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},17.5);
+      tl.fromTo("#us",{scale:1.0},{scale:1.09,duration:1.7,ease:"none"},18.3);
+      tl.fromTo("#crowd",{scale:1.0},{scale:1.09,duration:2.5,ease:"none"},20.0);
+      tl.fromTo("#shore",{scale:1.0},{scale:1.09,duration:2.0,ease:"none"},22.5);
+      tl.fromTo("#forest",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},24.5);
+      tl.fromTo("#back",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},27.5);
+      tl.fromTo("#cliffs",{scale:1.08},{scale:1.0,duration:0.35,ease:"power3.out"},29.5);
+      tl.fromTo("#loop",{scale:1.12},{scale:1,duration:2.5,ease:"power2.out"},31.0);
+      tl.fromTo("#hookbox .hookin",{scale:1},{scale:1.04,duration:0.25,yoyo:true,repeat:3,ease:"sine.inOut"},0.4);
+      tl.fromTo("#hookbox2 .hookin",{scale:0.6,opacity:0},{scale:1,opacity:1,duration:0.25,ease:"back.out(2)"},32.65);
+      tl.fromTo("#c01 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},2.1);
+      tl.to("#c01 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},3.23);
+      tl.fromTo("#c02 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},3.5);
+      tl.to("#c02 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},5.23);
+      tl.fromTo("#c03 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},5.5);
+      tl.to("#c03 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},7.83);
+      tl.fromTo("#c04 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},8.1);
+      tl.to("#c04 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},9.33);
+      tl.fromTo("#c05 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},9.6);
+      tl.to("#c05 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},11.83);
+      tl.fromTo("#c06 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},13.6);
+      tl.to("#c06 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},15.83);
+      tl.fromTo("#c07 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},16.1);
+      tl.to("#c07 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},17.33);
+      tl.fromTo("#c08 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},18.4);
+      tl.to("#c08 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},19.83);
+      tl.fromTo("#c09 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},21.05);
+      tl.to("#c09 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},22.33);
+      tl.fromTo("#c10 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},22.6);
+      tl.to("#c10 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},24.33);
+      tl.fromTo("#c11 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},24.6);
+      tl.to("#c11 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},25.73);
+      tl.fromTo("#c12 .capin",{scale:0.55,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:0.2,ease:"back.out(2.2)"},25.9);
+      tl.to("#c12 .capin",{opacity:0,scale:0.95,duration:0.12,ease:"power2.in"},27.33);
+      tl.fromTo("#but .butin",{scale:3.2,opacity:0},{scale:1,opacity:1,duration:0.18,ease:"power4.in"},20.0);
+      tl.fromTo("#crowd",{x:0},{x:14,duration:0.05,yoyo:true,repeat:5,ease:"none"},20.18);
+      tl.to("#but .butin",{opacity:0,scale:1.15,duration:0.12},20.88);
+      tl.fromTo("#verdict .vcard",{scale:3.5,opacity:0,rotation:-18},{scale:1,opacity:1,rotation:-6,duration:0.22,ease:"power4.in"},27.8);
+      tl.fromTo("#verdict .vlabel",{y:40,opacity:0},{y:0,opacity:1,duration:0.2,ease:"back.out(2)"},28.05);
+      tl.fromTo("#back",{x:0},{x:16,duration:0.05,yoyo:true,repeat:5,ease:"none"},28.02);
+      tl.to("#verdict .vcard",{scale:1.05,duration:0.5,yoyo:true,repeat:3,ease:"sine.inOut"},28.400000000000002);
+      tl.to("#verdict .vin",{opacity:0,scale:0.9,duration:0.15,ease:"power2.in"},30.85);
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
