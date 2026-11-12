@@ -15,7 +15,7 @@ Tip: skip P4 parking, P3 or P2 is way cheaper.
 
 ## YouTube Shorts
 Title: Lago di Braies: Skip or Trip? #Shorts
-Description: Rowing Italy's most famous Dolomites lake with our little one. Worth it or overrated? Boat about €50 for 45 min, and don't park at P4 (P3 or P2 is much cheaper). Verdict at the end! #Shorts #LagoDiBraies #Dolomites #Italy #TravelTips
+Description: Rowing Italy's most famous Dolomites lake with our little one. Worth it or overrated? Boat €55 for 40 min, and don't park at P4 (P3 or P2 is much cheaper). Verdict at the end! #Shorts #LagoDiBraies #Dolomites #Italy #TravelTips
 
 ## Cover frame
 Frame 0: boat #20 under the mountain with the yellow "Lago di Braies: Skip or Trip?" box in the top third.

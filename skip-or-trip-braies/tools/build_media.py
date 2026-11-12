@@ -69,12 +69,12 @@ def build_video(name, src, ss, dur, crop, grade, speed, blobs):
     print("video", out)
 
 # ---- stills ------------------------------------------------------------
-# P8 woman in black (blurred on request); P5/P3 strangers; P2/P6 woman in black.
+# Strangers only (P5 dock, P3 background rowers). The woman in black is with the family: not blurred.
 STILL_LIST = {
-    "p8_family_boat": ("P8.jpg", "light",  [(295,1440,58)]),
+    "p8_family_boat": ("P8.jpg", "light",  []),
     "p1_boats":       ("P1.jpg", "light",  []),
-    "p2_rowing":      ("P2.jpg", "light",  [(289,822,18)]),
-    "p6_larches":     ("P6.jpg", "light",  [(235,808,16)]),
+    "p2_rowing":      ("P2.jpg", "light",  []),
+    "p6_larches":     ("P6.jpg", "light",  []),
     "p3_us":          ("P3.jpg", "light",  [(130,990,22),(190,995,22),(160,985,30),(222,990,26),(240,1000,24)]),
     "p5_dock":        ("P5.jpg", "strong", [(55,2052,24),(105,2050,24),(348,2040,24),(507,2068,24),(285,2120,26),
                                             (180,2152,28),(627,2030,24),(663,2075,24),(690,2068,24),(1132,2015,22),

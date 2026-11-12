@@ -27,7 +27,7 @@ SHOTS = [
 CAPS = [
     ("c01",  2.10,  3.35, "Dolomites, *Italy*", 560),
     ("c02",  3.50,  5.35, "~1,500 m *up*", 560),
-    ("c03",  5.50,  7.95, "Rowboat: *~€50*|for 45 min", 560),
+    ("c03",  5.50,  7.95, "Rowboat: *€55*|for 40 min", 560),
     ("c04",  8.10,  9.45, "Classic *wooden* boats", 520),
     ("c05",  9.60, 11.95, "Row right under|*the peaks*", 470),
     ("c06", 13.60, 15.95, "*Glass*-clear water", 560),
@@ -130,10 +130,10 @@ doc = f'''<!doctype html>
         padding:22px 40px 26px; border-radius:22px; box-shadow:0 10px 30px rgba(0,0,0,0.35); letter-spacing:-0.015em; }}
       .big {{ position:absolute; left:0; width:1000px; top:560px; height:400px; display:flex; align-items:center; justify-content:center; }}
       .butin {{ font-weight:900; font-size:300px; color:#fff; letter-spacing:-0.03em; -webkit-text-stroke:14px #0b0b0b; paint-order:stroke fill; text-shadow:0 14px 40px rgba(0,0,0,0.55); }}
-      .verdict {{ position:absolute; left:0; width:1000px; top:560px; height:560px; display:flex; align-items:center; justify-content:center; }}
+      .verdict {{ position:absolute; left:0; width:1000px; top:170px; height:470px; display:flex; align-items:center; justify-content:center; }}
       .vin {{ display:flex; flex-direction:column; align-items:center; gap:22px; }}
       .vlabel {{ background:#fff; color:#0b0b0b; font-weight:900; font-size:46px; letter-spacing:0.18em; padding:10px 28px 12px; border-radius:999px; }}
-      .vcard {{ color:#fff; font-weight:900; font-size:230px; line-height:1; padding:34px 70px 44px; border:12px solid #fff; border-radius:40px;
+      .vcard {{ color:#fff; font-weight:900; font-size:190px; line-height:1; padding:26px 60px 36px; border:12px solid #fff; border-radius:40px;
         letter-spacing:-0.02em; box-shadow:0 18px 50px rgba(0,0,0,0.45); }}
     </style>
   </head>
