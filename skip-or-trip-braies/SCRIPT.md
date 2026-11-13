@@ -12,8 +12,8 @@ This is the shot everyone comes to Lago di Braies for.
 **line-02** · frame 2 (Instagram dream) · 0:07 · fits in 7s · ~3.2s to read  
 Turquoise water. Wooden boats. Not another soul around.
 
-**line-03** · frame 3 (Reality check) · 0:14 · fits in 4s · ~4.8s to read  
-And this is what it actually looks like .
+**line-03** · frame 3 (Reality check) · 0:14 · fits in 4s · ~3.2s to read  
+And this is what it actually looks like.
 
 **line-04** · frame 4 (The promise) · 0:18 · fits in 9s · ~7.2s to read  
 We spent a whole day here with our little one: the boats, the shore, and the honest truth.
