@@ -18,7 +18,7 @@ TONEMAP = ("zscale=tin=arib-std-b67:min=bt2020nc:pin=bt2020:t=linear:npl=203,for
            "zscale=p=bt709,tonemap=mobius:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p")
 GRADE = "colorbalance=rm=0.025:bm=-0.025:rh=0.02:bh=-0.02,eq=saturation=1.07:contrast=1.03"
 # strangers only; family and friend are never blurred
-BLUR = {"IMG_2671.MOV", "IMG_2700.MOV", "IMG_2749.HEIC", "IMG_2701.HEIC", "IMG_2705.heic"}
+BLUR = {"IMG_2671.MOV", "IMG_2700.MOV"}  # stranger faces in crowd clips; stills only show distant people (Haar misfires on rock)
 
 # ---- shot list from the storyboard ---------------------------------------
 src = open("../skip-or-trip-braies/tools/storyboard.py").read()

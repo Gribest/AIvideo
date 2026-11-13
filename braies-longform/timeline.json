@@ -1,0 +1,2061 @@
+{
+ "total": 380.86,
+ "frames": [
+  {
+   "n": 1,
+   "act": "1 \u00b7 Hook",
+   "title": "The postcard",
+   "start": 0.0,
+   "dur": 7,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2747.MOV",
+       3
+      ]
+     ],
+     "crop",
+     0.4
+    ]
+   ],
+   "ovs": [
+    [
+     "chapter",
+     "The Instagram version"
+    ]
+   ],
+   "vo": {
+    "text": "This is the shot everyone comes to Lago di Braies for.",
+    "dur": 3.83
+   },
+   "lead": 0.6
+  },
+  {
+   "n": 2,
+   "act": "1 \u00b7 Hook",
+   "title": "Instagram dream",
+   "start": 7.0,
+   "dur": 7,
+   "cuts": [
+    [
+     [
+      [
+       "e301100b-d690-4a43-af25-b27216893da6.jpg",
+       0
+      ],
+      [
+       "3c93faea-94d7-41fa-8f7d-9c40801c79b2.jpg",
+       0
+      ],
+      [
+       "ecb0ccc4-42af-40f2-8bab-fd769a2f6f7a.jpg",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "hearts"
+    ]
+   ],
+   "vo": {
+    "text": "Turquoise water. Wooden boats. Not another soul around.",
+    "dur": 3.83
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 3,
+   "act": "1 \u00b7 Hook",
+   "title": "Reality check",
+   "start": 14.0,
+   "dur": 4,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2671.MOV",
+       4
+      ]
+     ],
+     "crop",
+     0.62
+    ]
+   ],
+   "ovs": [
+    [
+     "big",
+     "REALITY"
+    ]
+   ],
+   "vo": {
+    "text": "And this is what it actually looks like.",
+    "dur": 2.4
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 4,
+   "act": "1 \u00b7 Hook",
+   "title": "The promise",
+   "start": 18.0,
+   "dur": 9,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2737.MOV",
+       4
+      ]
+     ],
+     "frame",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2731.MOV",
+       5
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "We spent a whole day here with our little one: the boats, the shore, and the honest truth.",
+    "dur": 5.02
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 5,
+   "act": "1 \u00b7 Hook",
+   "title": "Title",
+   "start": 27.0,
+   "dur": 8,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2682.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.4
+    ]
+   ],
+   "ovs": [
+    [
+     "title",
+     "LAGO DI BRAIES",
+     "Instagram vs Reality"
+    ]
+   ],
+   "vo": {
+    "text": "Here's our honest family guide.",
+    "dur": 2.04
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 6,
+   "act": "2 \u00b7 Getting there",
+   "title": "Arrival",
+   "start": 35.0,
+   "dur": 13,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2694.MOV",
+       4.5
+      ]
+     ],
+     "crop",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2683.MOV",
+       0.5
+      ]
+     ],
+     "crop",
+     0.62
+    ]
+   ],
+   "ovs": [
+    [
+     "lower",
+     "Lago di Braies",
+     "South Tyrol, Italy  \u00b7  1,496 m"
+    ]
+   ],
+   "vo": {
+    "text": "Lago di Braies sits at almost 1,500 metres in the Dolomites of South Tyrol.",
+    "dur": 6.33,
+    "extra": {
+     "text": "We arrived with our little one, a camera, and a bag full of *snacks.*",
+     "dur": 4.0
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 7,
+   "act": "2 \u00b7 Getting there",
+   "title": "Parking tip",
+   "start": 48.0,
+   "dur": 14,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2701.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.55
+    ],
+    [
+     [
+      [
+       "IMG_2705.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.62
+    ]
+   ],
+   "ovs": [
+    [
+     "card",
+     "PARKING",
+     [
+      "P4  \u00b7  closest, priciest",
+      "P3 / P2  \u00b7  cheaper",
+      "short walk to the lake"
+     ]
+    ]
+   ],
+   "vo": {
+    "text": "Parking tip: P4 is closest but pricey. P3 or P2 save you money.",
+    "dur": 5.81
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 8,
+   "act": "2 \u00b7 Getting there",
+   "title": "Snack stop",
+   "start": 62.0,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2707.HEIC",
+       0
+      ],
+      [
+       "IMG_2712.HEIC",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "First, a snack stop for the smallest member of the crew.",
+    "dur": 3.32
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 9,
+   "act": "2 \u00b7 Getting there",
+   "title": "First view",
+   "start": 72.0,
+   "dur": 8,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2696.MOV",
+       4
+      ]
+     ],
+     "crop",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2674.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "Then you round the corner, and there it is.",
+    "dur": 2.51
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 10,
+   "act": "3 \u00b7 The beauty",
+   "title": "The cliffs",
+   "start": 80.0,
+   "dur": 12,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2698.MOV",
+       5
+      ]
+     ],
+     "crop",
+     0.3
+    ],
+    [
+     [
+      [
+       "IMG_2710.heic",
+       0
+      ]
+     ],
+     "frame",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "lower",
+     "Seekofel",
+     "2,810 m above the lake"
+    ]
+   ],
+   "vo": {
+    "text": "Above the lake rises the Seekofel, almost 2,800 metres high.",
+    "dur": 4.79,
+    "extra": {
+     "text": "Every few minutes, the light shifts across that *rock face.*",
+     "dur": 3.49
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 11,
+   "act": "3 \u00b7 The beauty",
+   "title": "Clear water",
+   "start": 92.0,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2684.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.72
+    ],
+    [
+     [
+      [
+       "IMG_2699.MOV",
+       3
+      ]
+     ],
+     "crop",
+     0.66
+    ],
+    [
+     [
+      [
+       "IMG_2686.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.72
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "The water is so clear you can count the pebbles.",
+    "dur": 2.95
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 12,
+   "act": "3 \u00b7 The beauty",
+   "title": "Golden larches",
+   "start": 102.0,
+   "dur": 12,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2746.HEIC",
+       0
+      ],
+      [
+       "31151498-b7bf-4639-a980-09955fa3f875.jpg",
+       0
+      ],
+      [
+       "ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2695.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "In autumn, the larches turn gold.",
+    "dur": 2.36,
+    "extra": {
+     "text": "Green, gold, and that *turquoise* water. It hardly looks real.",
+     "dur": 3.98
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 13,
+   "act": "3 \u00b7 The beauty",
+   "title": "Sunny beach",
+   "start": 114.0,
+   "dur": 14,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2657.MOV",
+       2
+      ],
+      [
+       "1fa18641-7b95-4072-99b0-c94120e71a66.JPG",
+       0
+      ],
+      [
+       "73fb6ab0-6202-45b5-99fd-28c9bb57a461.JPG",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2654.MOV",
+       0
+      ]
+     ],
+     "crop",
+     0.6
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "And when the sun broke through at the sandy end, the colours changed completely.",
+    "dur": 4.45,
+    "extra": {
+     "text": "Our daughter headed straight for the *sand.*",
+     "dur": 2.19
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 14,
+   "act": "3 \u00b7 The beauty",
+   "title": "Shore play",
+   "start": 128.0,
+   "dur": 17,
+   "cuts": [
+    [
+     [
+      [
+       "3e1893c5-4458-4077-9694-2f5686c837de.mp4",
+       3
+      ],
+      [
+       "63A1ED87-3BC1-48FA-9B19-797269672309.jpg",
+       0
+      ],
+      [
+       "B564B181-53C0-409D-93C2-D1EAF6590576.jpg",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2690.jpg",
+       0
+      ]
+     ],
+     "crop",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "Plenty of pebble beach for little legs.",
+    "dur": 2.29,
+    "extra": {
+     "text": "She could have stayed here *all day.*",
+     "dur": 1.97
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 15,
+   "act": "4 \u00b7 The boat",
+   "title": "Boathouse",
+   "start": 145.0,
+   "dur": 12,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2749.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.58
+    ],
+    [
+     [
+      [
+       "IMG_2711.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.7
+    ]
+   ],
+   "ovs": [
+    [
+     "card",
+     "ROWBOAT",
+     [
+      "\u20ac55  \u00b7  40 minutes",
+      "pay at the boathouse",
+      "life jackets for kids"
+     ]
+    ]
+   ],
+   "vo": {
+    "text": "The famous wooden rowboats: \u20ac55 for 40 minutes.",
+    "dur": 4.11
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 16,
+   "act": "4 \u00b7 The boat",
+   "title": "All aboard",
+   "start": 157.0,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2727.MOV",
+       1
+      ]
+     ],
+     "frame",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "Little one on the bench...",
+    "dur": 1.57
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 17,
+   "act": "4 \u00b7 The boat",
+   "title": "Captain Dad",
+   "start": 167.0,
+   "dur": 13,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2742.MOV",
+       1.5
+      ]
+     ],
+     "frame",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2737.MOV",
+       7
+      ]
+     ],
+     "frame",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "chapter",
+     "Captain Dad"
+    ]
+   ],
+   "vo": {
+    "text": "...and Dad on the oars.",
+    "dur": 1.48
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 18,
+   "act": "4 \u00b7 The boat",
+   "title": "On the water",
+   "start": 180.0,
+   "dur": 16,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2731.MOV",
+       22
+      ]
+     ],
+     "crop",
+     0.55
+    ],
+    [
+     [
+      [
+       "IMG_2731.MOV",
+       34
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [],
+   "vo": null,
+   "lead": 0.35
+  },
+  {
+   "n": 19,
+   "act": "4 \u00b7 The boat",
+   "title": "Selfie",
+   "start": 196.0,
+   "dur": 13,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2734.MOV",
+       8
+      ]
+     ],
+     "frame",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": null,
+   "lead": 0.35
+  },
+  {
+   "n": 20,
+   "act": "4 \u00b7 The boat",
+   "title": "Under the cliffs",
+   "start": 209.0,
+   "dur": 13,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2732.MOV",
+       3
+      ]
+     ],
+     "crop",
+     0.4
+    ],
+    [
+     [
+      [
+       "IMG_2732.MOV",
+       20
+      ]
+     ],
+     "crop",
+     0.45
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "From inside the boat, it's forty minutes of pure calm.",
+    "dur": 3.21,
+    "extra": {
+     "text": "The only sounds are the oars, and the odd *happy squeal.*",
+     "dur": 3.42
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 21,
+   "act": "4 \u00b7 The boat",
+   "title": "From the shore",
+   "start": 222.0,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "c1ad2572-b66a-4181-aea5-425a8cfabda3.jpg",
+       0
+      ],
+      [
+       "ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "From the shore, you are the postcard.",
+    "dur": 2.19
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 22,
+   "act": "5 \u00b7 The reality",
+   "title": "BUT",
+   "start": 232.0,
+   "dur": 8,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2671.MOV",
+       2
+      ]
+     ],
+     "crop",
+     0.82
+    ]
+   ],
+   "ovs": [
+    [
+     "big",
+     "BUT..."
+    ]
+   ],
+   "vo": {
+    "text": "Now, the honest part.",
+    "dur": 1.59
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 23,
+   "act": "5 \u00b7 The reality",
+   "title": "Insta vs real",
+   "start": 240.0,
+   "dur": 16,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2674.heic",
+       0
+      ],
+      [
+       "IMG_2747.MOV",
+       9
+      ]
+     ],
+     "compare",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "labels"
+    ]
+   ],
+   "vo": {
+    "text": "Most photos online are shot at sunrise and edited. On a normal day it's greyer, flatter, and busier.",
+    "dur": 6.84
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 24,
+   "act": "5 \u00b7 The reality",
+   "title": "Crowds",
+   "start": 256.0,
+   "dur": 12,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2671.MOV",
+       8
+      ]
+     ],
+     "crop",
+     0.85
+    ],
+    [
+     [
+      [
+       "IMG_2700.MOV",
+       0
+      ]
+     ],
+     "crop",
+     0.62
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "By midday the beach is packed, and there are boats in every shot.",
+    "dur": 3.72,
+    "extra": {
+     "text": "Everyone is chasing the same photo, from the *same spot.*",
+     "dur": 3.62
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 25,
+   "act": "5 \u00b7 The reality",
+   "title": "Low water",
+   "start": 268.0,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2682.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.92
+    ],
+    [
+     [
+      [
+       "IMG_2687.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.75
+    ]
+   ],
+   "ovs": [
+    [
+     "chapter",
+     "Autumn = low water"
+    ]
+   ],
+   "vo": {
+    "text": "In autumn the water drops, and the shore turns to gravel.",
+    "dur": 3.51
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 26,
+   "act": "5 \u00b7 The reality",
+   "title": "Toddler time",
+   "start": 278.0,
+   "dur": 12,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2732.MOV",
+       45
+      ]
+     ],
+     "crop",
+     0.55
+    ],
+    [
+     [
+      [
+       "IMG_2731.MOV",
+       44
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "And with a toddler? Forty minutes was exactly enough.",
+    "dur": 3.42,
+    "extra": {
+     "text": "Bring snacks, a warm layer, and a *toy* for the boat.",
+     "dur": 3.1
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 27,
+   "act": "6 \u00b7 Tips",
+   "title": "Tip 1: timing",
+   "start": 290.0,
+   "dur": 18,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2747.MOV",
+       14
+      ]
+     ],
+     "crop",
+     0.55
+    ],
+    [
+     [
+      [
+       "IMG_2747.MOV",
+       4
+      ]
+     ],
+     "crop",
+     0.4
+    ],
+    [
+     [
+      [
+       "IMG_2675.heic",
+       0
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [
+    [
+     "card",
+     "TIP 1",
+     [
+      "Go at sunset",
+      "or after the boats close",
+      "= empty lake, no crowds"
+     ]
+    ]
+   ],
+   "vo": {
+    "text": "Want the Instagram shot? Come at sunset, or after the boats close, when the lake goes quiet.",
+    "dur": 5.81,
+    "extra": {
+     "text": "Golden light, still water, and the boats lined up at the *dock.*",
+     "dur": 3.87
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 28,
+   "act": "6 \u00b7 Tips",
+   "title": "Tip 2: how long",
+   "start": 308.0,
+   "dur": 16,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2694.MOV",
+       1
+      ]
+     ],
+     "crop",
+     0.5
+    ],
+    [
+     [
+      [
+       "IMG_2696.MOV",
+       6
+      ]
+     ],
+     "crop",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "card",
+     "TIP 2 \u00b7 HOW LONG",
+     [
+      "Boat  \u00b7  40 min",
+      "Lakeside loop  \u00b7  ~1 h",
+      "Snack + photos  \u00b7  ~1 h",
+      "Plan 2 to 3 hours"
+     ]
+    ]
+   ],
+   "vo": {
+    "text": "Plan two to three hours: the boat, the loop walk round the lake, and a snack.",
+    "dur": 4.6
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 29,
+   "act": "6 \u00b7 Tips",
+   "title": "Tip 3: parking",
+   "start": 324.0,
+   "dur": 14,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2641.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.7
+    ],
+    [
+     [
+      [
+       "IMG_2749.HEIC",
+       0
+      ]
+     ],
+     "crop",
+     0.62
+    ]
+   ],
+   "ovs": [
+    [
+     "card",
+     "TIP 3",
+     [
+      "Skip P4, park at P3 / P2",
+      "Summer: check if the road",
+      "needs a booking"
+     ]
+    ]
+   ],
+   "vo": {
+    "text": "Skip P4, park at P3 or P2, and in summer check whether the road needs booking.",
+    "dur": 5.77
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 30,
+   "act": "7 \u00b7 Verdict",
+   "title": "Was it worth it?",
+   "start": 338.0,
+   "dur": 12.86,
+   "cuts": [
+    [
+     [
+      [
+       "835738B4-4F17-4766-8EBC-D9CC861CC08B.jpg",
+       0
+      ],
+      [
+       "3e1893c5-4458-4077-9694-2f5686c837de.mp4",
+       6
+      ],
+      [
+       "63A1ED87-3BC1-48FA-9B19-797269672309.jpg",
+       0
+      ]
+     ],
+     "split",
+     0.5
+    ]
+   ],
+   "ovs": [],
+   "vo": {
+    "text": "So, Instagram or reality? Honestly... both.",
+    "dur": 3.42,
+    "extra": {
+     "text": "It's busy, and it's not quite the postcard. But in that boat, with our daughter, under those mountains, we didn't mind *at all.*",
+     "dur": 7.69
+    }
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 31,
+   "act": "7 \u00b7 Verdict",
+   "title": "TRIP",
+   "start": 350.86,
+   "dur": 10,
+   "cuts": [
+    [
+     [
+      [
+       "3c93faea-94d7-41fa-8f7d-9c40801c79b2.jpg",
+       0
+      ]
+     ],
+     "frame",
+     0.5
+    ]
+   ],
+   "ovs": [
+    [
+     "stamp",
+     "TRIP"
+    ]
+   ],
+   "vo": {
+    "text": "Lago di Braies is a TRIP. Just go early, or go late.",
+    "dur": 4.0
+   },
+   "lead": 0.35
+  },
+  {
+   "n": 32,
+   "act": "7 \u00b7 Verdict",
+   "title": "End screen",
+   "start": 360.86,
+   "dur": 20,
+   "cuts": [
+    [
+     [
+      [
+       "IMG_2747.MOV",
+       16
+      ]
+     ],
+     "crop",
+     0.55
+    ]
+   ],
+   "ovs": [
+    [
+     "endscreen"
+    ]
+   ],
+   "vo": {
+    "text": "Subscribe for more family travel: skip or trip?",
+    "dur": 3.49
+   },
+   "lead": 0.35
+  }
+ ],
+ "cuts": [
+  {
+   "id": "s01a",
+   "frame": 1,
+   "start": 0.0,
+   "dur": 7,
+   "srcs": [
+    [
+     "IMG_2747.MOV",
+     3
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.4,
+   "file": "assets/plates/s01a_3c6f1e.mp4"
+  },
+  {
+   "id": "s02a",
+   "frame": 2,
+   "start": 7.0,
+   "dur": 7,
+   "srcs": [
+    [
+     "e301100b-d690-4a43-af25-b27216893da6.jpg",
+     0
+    ],
+    [
+     "3c93faea-94d7-41fa-8f7d-9c40801c79b2.jpg",
+     0
+    ],
+    [
+     "ecb0ccc4-42af-40f2-8bab-fd769a2f6f7a.jpg",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s02a_c1f4d6.jpg"
+  },
+  {
+   "id": "s03a",
+   "frame": 3,
+   "start": 14.0,
+   "dur": 4,
+   "srcs": [
+    [
+     "IMG_2671.MOV",
+     4
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.62,
+   "file": "assets/plates/s03a_8418e1.mp4"
+  },
+  {
+   "id": "s04a",
+   "frame": 4,
+   "start": 18.0,
+   "dur": 4.5,
+   "srcs": [
+    [
+     "IMG_2737.MOV",
+     4
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s04a_2aba9d.mp4"
+  },
+  {
+   "id": "s04b",
+   "frame": 4,
+   "start": 22.5,
+   "dur": 4.5,
+   "srcs": [
+    [
+     "IMG_2731.MOV",
+     5
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s04b_bd3980.mp4"
+  },
+  {
+   "id": "s05a",
+   "frame": 5,
+   "start": 27.0,
+   "dur": 8,
+   "srcs": [
+    [
+     "IMG_2682.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.4,
+   "file": "assets/plates/s05a_bc7b44.jpg"
+  },
+  {
+   "id": "s06a",
+   "frame": 6,
+   "start": 35.0,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2694.MOV",
+     4.5
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s06a_d2a778.mp4"
+  },
+  {
+   "id": "s06b",
+   "frame": 6,
+   "start": 41.5,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2683.MOV",
+     0.5
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.62,
+   "file": "assets/plates/s06b_aa1e64.mp4"
+  },
+  {
+   "id": "s07a",
+   "frame": 7,
+   "start": 48.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2701.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s07a_131c84.jpg"
+  },
+  {
+   "id": "s07b",
+   "frame": 7,
+   "start": 55.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2705.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.62,
+   "file": "assets/plates/s07b_3d1aad.jpg"
+  },
+  {
+   "id": "s08a",
+   "frame": 8,
+   "start": 62.0,
+   "dur": 10,
+   "srcs": [
+    [
+     "IMG_2707.HEIC",
+     0
+    ],
+    [
+     "IMG_2712.HEIC",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s08a_1c7e35.jpg"
+  },
+  {
+   "id": "s09a",
+   "frame": 9,
+   "start": 72.0,
+   "dur": 4.0,
+   "srcs": [
+    [
+     "IMG_2696.MOV",
+     4
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s09a_0c9a35.mp4"
+  },
+  {
+   "id": "s09b",
+   "frame": 9,
+   "start": 76.0,
+   "dur": 4.0,
+   "srcs": [
+    [
+     "IMG_2674.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s09b_b7e322.jpg"
+  },
+  {
+   "id": "s10a",
+   "frame": 10,
+   "start": 80.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2698.MOV",
+     5
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.3,
+   "file": "assets/plates/s10a_9350a7.mp4"
+  },
+  {
+   "id": "s10b",
+   "frame": 10,
+   "start": 86.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2710.heic",
+     0
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s10b_43196d.jpg"
+  },
+  {
+   "id": "s11a",
+   "frame": 11,
+   "start": 92.0,
+   "dur": 5.0,
+   "srcs": [
+    [
+     "IMG_2684.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.72,
+   "file": "assets/plates/s11a_e0c008.jpg"
+  },
+  {
+   "id": "s11b",
+   "frame": 11,
+   "start": 97.0,
+   "dur": 2.5,
+   "srcs": [
+    [
+     "IMG_2699.MOV",
+     3
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.66,
+   "file": "assets/plates/s11b_6ca319.mp4"
+  },
+  {
+   "id": "s11c",
+   "frame": 11,
+   "start": 99.5,
+   "dur": 2.5,
+   "srcs": [
+    [
+     "IMG_2686.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.72,
+   "file": "assets/plates/s11c_4ba7e0.jpg"
+  },
+  {
+   "id": "s12a",
+   "frame": 12,
+   "start": 102.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2746.HEIC",
+     0
+    ],
+    [
+     "31151498-b7bf-4639-a980-09955fa3f875.jpg",
+     0
+    ],
+    [
+     "ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s12a_018963.jpg"
+  },
+  {
+   "id": "s12b",
+   "frame": 12,
+   "start": 108.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2695.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s12b_6b3580.jpg"
+  },
+  {
+   "id": "s13a",
+   "frame": 13,
+   "start": 114.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2657.MOV",
+     2
+    ],
+    [
+     "1fa18641-7b95-4072-99b0-c94120e71a66.JPG",
+     0
+    ],
+    [
+     "73fb6ab0-6202-45b5-99fd-28c9bb57a461.JPG",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s13a_fd65f8.mp4"
+  },
+  {
+   "id": "s13b",
+   "frame": 13,
+   "start": 121.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2654.MOV",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.6,
+   "file": "assets/plates/s13b_98fa47.mp4"
+  },
+  {
+   "id": "s14a",
+   "frame": 14,
+   "start": 128.0,
+   "dur": 8.5,
+   "srcs": [
+    [
+     "3e1893c5-4458-4077-9694-2f5686c837de.mp4",
+     3
+    ],
+    [
+     "63A1ED87-3BC1-48FA-9B19-797269672309.jpg",
+     0
+    ],
+    [
+     "B564B181-53C0-409D-93C2-D1EAF6590576.jpg",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s14a_fa05f6.mp4"
+  },
+  {
+   "id": "s14b",
+   "frame": 14,
+   "start": 136.5,
+   "dur": 8.5,
+   "srcs": [
+    [
+     "IMG_2690.jpg",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s14b_2dcb20.jpg"
+  },
+  {
+   "id": "s15a",
+   "frame": 15,
+   "start": 145.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2749.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.58,
+   "file": "assets/plates/s15a_c1a119.jpg"
+  },
+  {
+   "id": "s15b",
+   "frame": 15,
+   "start": 151.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2711.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.7,
+   "file": "assets/plates/s15b_65f4ce.jpg"
+  },
+  {
+   "id": "s16a",
+   "frame": 16,
+   "start": 157.0,
+   "dur": 10,
+   "srcs": [
+    [
+     "IMG_2727.MOV",
+     1
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s16a_bf98de.mp4"
+  },
+  {
+   "id": "s17a",
+   "frame": 17,
+   "start": 167.0,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2742.MOV",
+     1.5
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s17a_eaeee1.mp4"
+  },
+  {
+   "id": "s17b",
+   "frame": 17,
+   "start": 173.5,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2737.MOV",
+     7
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s17b_a93979.mp4"
+  },
+  {
+   "id": "s18a",
+   "frame": 18,
+   "start": 180.0,
+   "dur": 8.0,
+   "srcs": [
+    [
+     "IMG_2731.MOV",
+     22
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s18a_60a99b.mp4"
+  },
+  {
+   "id": "s18b",
+   "frame": 18,
+   "start": 188.0,
+   "dur": 8.0,
+   "srcs": [
+    [
+     "IMG_2731.MOV",
+     34
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s18b_9d5de1.mp4"
+  },
+  {
+   "id": "s19a",
+   "frame": 19,
+   "start": 196.0,
+   "dur": 13,
+   "srcs": [
+    [
+     "IMG_2734.MOV",
+     8
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s19a_5c5e4c.mp4"
+  },
+  {
+   "id": "s20a",
+   "frame": 20,
+   "start": 209.0,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2732.MOV",
+     3
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.4,
+   "file": "assets/plates/s20a_e1f19a.mp4"
+  },
+  {
+   "id": "s20b",
+   "frame": 20,
+   "start": 215.5,
+   "dur": 6.5,
+   "srcs": [
+    [
+     "IMG_2732.MOV",
+     20
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.45,
+   "file": "assets/plates/s20b_c3f1d2.mp4"
+  },
+  {
+   "id": "s21a",
+   "frame": 21,
+   "start": 222.0,
+   "dur": 10,
+   "srcs": [
+    [
+     "c1ad2572-b66a-4181-aea5-425a8cfabda3.jpg",
+     0
+    ],
+    [
+     "ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s21a_5b2070.jpg"
+  },
+  {
+   "id": "s22a",
+   "frame": 22,
+   "start": 232.0,
+   "dur": 8,
+   "srcs": [
+    [
+     "IMG_2671.MOV",
+     2
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.82,
+   "file": "assets/plates/s22a_9edfa4.mp4"
+  },
+  {
+   "id": "s23a",
+   "frame": 23,
+   "start": 240.0,
+   "dur": 16,
+   "srcs": [
+    [
+     "IMG_2674.heic",
+     0
+    ],
+    [
+     "IMG_2747.MOV",
+     9
+    ]
+   ],
+   "mode": "compare",
+   "y": 0.5,
+   "file": "assets/plates/s23a_a7326f.mp4"
+  },
+  {
+   "id": "s24a",
+   "frame": 24,
+   "start": 256.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2671.MOV",
+     8
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.85,
+   "file": "assets/plates/s24a_b95655.mp4"
+  },
+  {
+   "id": "s24b",
+   "frame": 24,
+   "start": 262.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2700.MOV",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.62,
+   "file": "assets/plates/s24b_f276f2.mp4"
+  },
+  {
+   "id": "s25a",
+   "frame": 25,
+   "start": 268.0,
+   "dur": 5.0,
+   "srcs": [
+    [
+     "IMG_2682.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.92,
+   "file": "assets/plates/s25a_a955bb.jpg"
+  },
+  {
+   "id": "s25b",
+   "frame": 25,
+   "start": 273.0,
+   "dur": 5.0,
+   "srcs": [
+    [
+     "IMG_2687.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.75,
+   "file": "assets/plates/s25b_f7e4fa.jpg"
+  },
+  {
+   "id": "s26a",
+   "frame": 26,
+   "start": 278.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2732.MOV",
+     45
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s26a_dc5575.mp4"
+  },
+  {
+   "id": "s26b",
+   "frame": 26,
+   "start": 284.0,
+   "dur": 6.0,
+   "srcs": [
+    [
+     "IMG_2731.MOV",
+     44
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s26b_4afb94.mp4"
+  },
+  {
+   "id": "s27a",
+   "frame": 27,
+   "start": 290.0,
+   "dur": 9.0,
+   "srcs": [
+    [
+     "IMG_2747.MOV",
+     14
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s27a_285fdd.mp4"
+  },
+  {
+   "id": "s27b",
+   "frame": 27,
+   "start": 299.0,
+   "dur": 4.5,
+   "srcs": [
+    [
+     "IMG_2747.MOV",
+     4
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.4,
+   "file": "assets/plates/s27b_0d0301.mp4"
+  },
+  {
+   "id": "s27c",
+   "frame": 27,
+   "start": 303.5,
+   "dur": 4.5,
+   "srcs": [
+    [
+     "IMG_2675.heic",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s27c_52b490.jpg"
+  },
+  {
+   "id": "s28a",
+   "frame": 28,
+   "start": 308.0,
+   "dur": 8.0,
+   "srcs": [
+    [
+     "IMG_2694.MOV",
+     1
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s28a_ed1d54.mp4"
+  },
+  {
+   "id": "s28b",
+   "frame": 28,
+   "start": 316.0,
+   "dur": 8.0,
+   "srcs": [
+    [
+     "IMG_2696.MOV",
+     6
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.5,
+   "file": "assets/plates/s28b_55e714.mp4"
+  },
+  {
+   "id": "s29a",
+   "frame": 29,
+   "start": 324.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2641.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.7,
+   "file": "assets/plates/s29a_4f3a81.jpg"
+  },
+  {
+   "id": "s29b",
+   "frame": 29,
+   "start": 331.0,
+   "dur": 7.0,
+   "srcs": [
+    [
+     "IMG_2749.HEIC",
+     0
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.62,
+   "file": "assets/plates/s29b_d29a70.jpg"
+  },
+  {
+   "id": "s30a",
+   "frame": 30,
+   "start": 338.0,
+   "dur": 12.86,
+   "srcs": [
+    [
+     "835738B4-4F17-4766-8EBC-D9CC861CC08B.jpg",
+     0
+    ],
+    [
+     "3e1893c5-4458-4077-9694-2f5686c837de.mp4",
+     6
+    ],
+    [
+     "63A1ED87-3BC1-48FA-9B19-797269672309.jpg",
+     0
+    ]
+   ],
+   "mode": "split",
+   "y": 0.5,
+   "file": "assets/plates/s30a_453022.mp4"
+  },
+  {
+   "id": "s31a",
+   "frame": 31,
+   "start": 350.86,
+   "dur": 10,
+   "srcs": [
+    [
+     "3c93faea-94d7-41fa-8f7d-9c40801c79b2.jpg",
+     0
+    ]
+   ],
+   "mode": "frame",
+   "y": 0.5,
+   "file": "assets/plates/s31a_dff5bd.jpg"
+  },
+  {
+   "id": "s32a",
+   "frame": 32,
+   "start": 360.86,
+   "dur": 20,
+   "srcs": [
+    [
+     "IMG_2747.MOV",
+     16
+    ]
+   ],
+   "mode": "crop",
+   "y": 0.55,
+   "file": "assets/plates/s32a_7fab80.mp4"
+  }
+ ]
+}
