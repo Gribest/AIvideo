@@ -113,7 +113,7 @@ S = [
   "Turquoise water. *Wooden boats.* Not another soul around.", "three perfect posed photos pop in one by one with like counters",
   "pop on each photo; music lifts", "Your bright, edited-looking photos sell the 'Instagram' promise."),
  ("1 · Hook", "Reality check", 14, 18, [("IMG_2749.HEIC", 0)], "crop", .66, [("big", "REALITY")],
-  "And this is what it actually looks like when you *get there.*", "music cuts (14.0s); REALITY slams in (14.3-17.5s)",
+  "And this is what it *actually* looks like.", "music cuts (14.0s); REALITY slams in (14.3-17.5s)",
   "record-scratch; music drops out; dock chatter (natural sound)", "Dock crowd clip; strangers' faces blurred as in the Short."),
  ("1 · Hook", "The promise", 18, 27, [("IMG_2737.MOV", 4)], "frame", .5, [],
   "We spent a whole day here with our *little one*: the boats, the shore, and the honest truth.", "Dad rowing, laughing, cliffs behind",

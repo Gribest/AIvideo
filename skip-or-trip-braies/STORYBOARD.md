@@ -39,7 +39,7 @@ Your bright, edited-looking photos sell the 'Instagram' promise.
 - status: outline
 - duration: 4s
 - scene: IMG_2749.HEIC (crop)
-- voiceover: And this is what it actually looks like when you get there.
+- voiceover: And this is what it actually looks like.
 - reads: music cuts (14.0s); REALITY slams in (14.3-17.5s)
 - sound: record-scratch; music drops out; dock chatter (natural sound)
 
