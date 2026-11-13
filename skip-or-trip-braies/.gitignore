@@ -6,3 +6,5 @@ assets/stills/
 node_modules/
 .hyperframes/
 .transcode-cache/
+boards/stills/
+boards/web/
