@@ -38,12 +38,12 @@ Your bright, edited-looking photos sell the 'Instagram' promise.
 - act: 1 · Hook
 - status: outline
 - duration: 4s
-- scene: IMG_2749.HEIC (crop)
+- scene: IMG_2671.MOV (crop)
 - voiceover: And this is what it actually looks like.
 - reads: music cuts (14.0s); REALITY slams in (14.3-17.5s)
 - sound: record-scratch; music drops out; dock chatter (natural sound)
 
-Dock crowd clip; strangers' faces blurred as in the Short.
+New clip IMG_2671: the busy beach. Strangers' faces blurred.
 
 ## Frame 4: The promise (0:18-0:27)
 - act: 1 · Hook
@@ -106,7 +106,7 @@ Info card over the dock overview photo.
 - act: 2 · Getting there
 - status: outline
 - duration: 8s
-- scene: IMG_2641.HEIC (crop)
+- scene: IMG_2696.MOV (crop)
 - voiceover: Then you round the corner, and there it is.
 - reads: slow push-in on the boats under the peak
 - sound: music swells
@@ -130,7 +130,7 @@ Height to be double-checked before narration is recorded.
 - act: 3 · The beauty
 - status: outline
 - duration: 10s
-- scene: IMG_2699.MOV (crop)
+- scene: IMG_2684.heic (crop)
 - voiceover: The water is so clear you can count the pebbles.
 - reads: ripples over the stones
 - sound: water lapping up
@@ -152,7 +152,7 @@ Height to be double-checked before narration is recorded.
 - act: 3 · The beauty
 - status: outline
 - duration: 14s
-- scene: IMG_2657.MOV (frame)
+- scene: IMG_2657.MOV, 1fa18641-7b95-4072-99b0-c94120e71a66.JPG, 73fb6ab0-6202-45b5-99fd-28c9bb57a461.JPG (split)
 - voiceover: And when the sun broke through at the sandy end, the colours changed completely.
 - reads: you and your daughter in the sun
 - sound: natural sound up (laughing)
@@ -255,7 +255,7 @@ From the 67 s clip.
 - act: 5 · The reality
 - status: outline
 - duration: 8s
-- scene: IMG_2701.HEIC (crop)
+- scene: IMG_2671.MOV (crop)
 - voiceover: Now, the honest part.
 - reads: BUT punches in; frame shakes
 - sound: hit; music stops
@@ -277,12 +277,12 @@ The comparison frame: your edited photo vs the raw overcast clip.
 - act: 5 · The reality
 - status: outline
 - duration: 12s
-- scene: IMG_2749.HEIC (crop)
-- voiceover: Even on a grey autumn day, there are people at every viewpoint and boats in every shot.
-- reads: slow zoom into the dock
-- sound: crowd murmur
+- scene: IMG_2671.MOV (crop)
+- voiceover: By midday the beach is packed, and there are boats in every shot.
+- reads: crowd on the sand; slow push-in
+- sound: crowd murmur (clip sound)
 
-Your footage shows a busy-ish dock, not a packed one, so the line stays honest. Have a real crowd clip? It would hit harder here. Strangers blurred.
+New clip IMG_2671. Strangers blurred.
 
 ## Frame 25: Low water (4:28-4:38)
 - act: 5 · The reality

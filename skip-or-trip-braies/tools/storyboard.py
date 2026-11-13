@@ -112,9 +112,9 @@ S = [
  ("1 · Hook", "Instagram dream", 7, 14, [("e301100b-d690-4a43-af25-b27216893da6.jpg", 0), ("3c93faea-94d7-41fa-8f7d-9c40801c79b2.jpg", 0), ("ecb0ccc4-42af-40f2-8bab-fd769a2f6f7a.jpg", 0)], "split", .5, [("hearts",)],
   "Turquoise water. *Wooden boats.* Not another soul around.", "three perfect posed photos pop in one by one with like counters",
   "pop on each photo; music lifts", "Your bright, edited-looking photos sell the 'Instagram' promise."),
- ("1 · Hook", "Reality check", 14, 18, [("IMG_2749.HEIC", 0)], "crop", .66, [("big", "REALITY")],
+ ("1 · Hook", "Reality check", 14, 18, [("IMG_2671.MOV", 4)], "crop", .62, [("big", "REALITY")],
   "And this is what it *actually* looks like.", "music cuts (14.0s); REALITY slams in (14.3-17.5s)",
-  "record-scratch; music drops out; dock chatter (natural sound)", "Dock crowd clip; strangers' faces blurred as in the Short."),
+  "record-scratch; music drops out; dock chatter (natural sound)", "New clip IMG_2671: the busy beach. Strangers' faces blurred."),
  ("1 · Hook", "The promise", 18, 27, [("IMG_2737.MOV", 4)], "frame", .5, [],
   "We spent a whole day here with our *little one*: the boats, the shore, and the honest truth.", "Dad rowing, laughing, cliffs behind",
   "natural oar sound; music back in, lighter", ""),
@@ -129,16 +129,16 @@ S = [
   "tick per row", "Info card over the dock overview photo."),
  ("2 · Getting there", "Snack stop", 62, 72, [("IMG_2707.HEIC", 0), ("IMG_2712.HEIC", 0)], "split", .5, [],
   "First, a *snack stop* for the smallest member of the crew.", "two selfies side by side", "light, playful music phrase", ""),
- ("2 · Getting there", "First view", 72, 80, [("IMG_2641.HEIC", 0)], "crop", .42, [],
+ ("2 · Getting there", "First view", 72, 80, [("IMG_2696.MOV", 4)], "crop", .5, [],
   "Then you round the corner, and *there it is.*", "slow push-in on the boats under the peak", "music swells", ""),
 
  ("3 · The beauty", "The cliffs", 80, 92, [("IMG_2698.MOV", 5)], "crop", .30, [("lower", "Seekofel", "2,810 m above the lake")],
   "Above the lake rises the *Seekofel*, almost 2,800 metres high.", "tilt up the rock face; lower third", "music bed only", "Height to be double-checked before narration is recorded."),
- ("3 · The beauty", "Clear water", 92, 102, [("IMG_2699.MOV", 3)], "crop", .66, [],
+ ("3 · The beauty", "Clear water", 92, 102, [("IMG_2684.heic", 0)], "crop", .72, [],
   "The water is so clear you can count the *pebbles.*", "ripples over the stones", "water lapping up", ""),
  ("3 · The beauty", "Golden larches", 102, 114, [("IMG_2746.HEIC", 0), ("31151498-b7bf-4639-a980-09955fa3f875.jpg", 0), ("ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg", 0)], "split", .5, [],
   "In autumn, the larches turn *gold.*", "three panels slide in left to right", "soft whoosh per panel", ""),
- ("3 · The beauty", "Sunny beach", 114, 128, [("IMG_2657.MOV", 2)], "frame", .5, [],
+ ("3 · The beauty", "Sunny beach", 114, 128, [("IMG_2657.MOV", 2), ("1fa18641-7b95-4072-99b0-c94120e71a66.JPG", 0), ("73fb6ab0-6202-45b5-99fd-28c9bb57a461.JPG", 0)], "split", .5, [],
   "And when the sun broke through at the *sandy end*, the colours changed completely.", "you and your daughter in the sun", "natural sound up (laughing)", "Sunny clip, same visit."),
  ("3 · The beauty", "Shore play", 128, 145, [(MP4, 3), ("63A1ED87-3BC1-48FA-9B19-797269672309.jpg", 0), ("B564B181-53C0-409D-93C2-D1EAF6590576.jpg", 0)], "split", .5, [],
   "Plenty of pebble beach for *little legs.*", "laughing clip + two lift photos", "laughter (clip audio)", "The laughing clip only exists as a small 850p export: kept as one panel. Have the original?"),
@@ -158,13 +158,13 @@ S = [
  ("4 · The boat", "From the shore", 222, 232, [("c1ad2572-b66a-4181-aea5-425a8cfabda3.jpg", 0), ("ba61cc35-afea-4ea3-90e2-d30361413d5a.jpg", 0)], "split", .5, [],
   "From the shore, you *are* the postcard.", "your boat seen from the shore, two angles", "music", ""),
 
- ("5 · The reality", "BUT", 232, 240, [("IMG_2701.HEIC", 0)], "crop", .78, [("big", "BUT...")],
+ ("5 · The reality", "BUT", 232, 240, [("IMG_2671.MOV", 2)], "crop", .82, [("big", "BUT...")],
   "Now, the *honest part.*", "BUT punches in; frame shakes", "hit; music stops", ""),
  ("5 · The reality", "Insta vs real", 240, 256, [("e301100b-d690-4a43-af25-b27216893da6.jpg", 0), ("IMG_2747.MOV", 9)], "compare", .5, [("labels",)],
   "Most photos online are shot at *sunrise* and edited. On a normal day it's greyer, flatter, and busier.", "split slides open from the centre; labels (241s)",
   "swoosh on the split", "The comparison frame: your edited photo vs the raw overcast clip."),
- ("5 · The reality", "Crowds", 256, 268, [("IMG_2749.HEIC", 0)], "crop", .74, [],
-  "Even on a grey autumn day, there are people at every viewpoint and *boats in every shot.*", "slow zoom into the dock", "crowd murmur", "Your footage shows a busy-ish dock, not a packed one, so the line stays honest. Have a real crowd clip? It would hit harder here. Strangers blurred."),
+ ("5 · The reality", "Crowds", 256, 268, [("IMG_2671.MOV", 8)], "crop", .85, [],
+  "By midday the beach is *packed*, and there are boats in every shot.", "crowd on the sand; slow push-in", "crowd murmur (clip sound)", "New clip IMG_2671. Strangers blurred."),
  ("5 · The reality", "Low water", 268, 278, [("IMG_2682.HEIC", 0)], "crop", .92, [("chapter", "Autumn = low water")],
   "In autumn the water drops, and the shore turns to *gravel.*", "gravel shore + chapter tag", "music low", ""),
  ("5 · The reality", "Toddler time", 278, 290, [("IMG_2732.MOV", 45)], "crop", .55, [],
@@ -217,11 +217,9 @@ chapters, seen = [], set()
 for a, title, st, *_ in S:
     if a not in seen: seen.add(a); chapters.append(f"<li><span class='ts'>{mmss(st)}</span> {html.escape(a.split(' · ')[1])}</li>")
 QUESTIONS = [
- "Narrator voice: female or male, and any accent you prefer? (Or record it yourself and I'll cut to it.)",
+ "Which photo should be removed? Give me its frame number.",
  "Facts I'll double-check before the voice is recorded: lake at 1,496 m, Seekofel at 2,810 m, the loop walk taking about an hour, and whether the summer road needs booking.",
  "The laughing-on-the-shore clip only exists as a small 850p export. Is there an original in your camera roll?",
- "Do you have any clip of a really busy dock or queue? Frames 03, 22 and 24 would hit harder with one.",
- "Strangers' faces get blurred as in the Short; your family friend stays unblurred. Still right?",
 ]
 page = f'''<title>Braies Long-Form Storyboard</title>
 <meta name="claude:viewport-fit-sides" content="cover">

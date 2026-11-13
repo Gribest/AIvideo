@@ -70,7 +70,7 @@ Now, the honest part.
 Most photos online are shot at sunrise and edited. On a normal day it's greyer, flatter, and busier.
 
 **line-22** · frame 24 (Crowds) · 4:16 · fits in 12s · ~6.8s to read  
-Even on a grey autumn day, there are people at every viewpoint and boats in every shot.
+By midday the beach is packed, and there are boats in every shot.
 
 **line-23** · frame 25 (Low water) · 4:28 · fits in 10s · ~4.4s to read  
 In autumn the water drops, and the shore turns to gravel.
