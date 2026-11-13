@@ -160,9 +160,9 @@ S = [
 
  ("5 · The reality", "BUT", 232, 240, [("IMG_2671.MOV", 2)], "crop", .82, [("big", "BUT...")],
   "Now, the *honest part.*", "BUT punches in; frame shakes", "hit; music stops", ""),
- ("5 · The reality", "Insta vs real", 240, 256, [("e301100b-d690-4a43-af25-b27216893da6.jpg", 0), ("IMG_2747.MOV", 9)], "compare", .5, [("labels",)],
+ ("5 · The reality", "Insta vs real", 240, 256, [("IMG_2674.heic", 0), ("IMG_2747.MOV", 9)], "compare", .5, [("labels",)],
   "Most photos online are shot at *sunrise* and edited. On a normal day it's greyer, flatter, and busier.", "split slides open from the centre; labels (241s)",
-  "swoosh on the split", "The comparison frame: your edited photo vs the raw overcast clip."),
+  "swoosh on the split", "Sunny postcard photo of the boats vs the raw overcast clip (your photo removed, as asked)."),
  ("5 · The reality", "Crowds", 256, 268, [("IMG_2671.MOV", 8)], "crop", .85, [],
   "By midday the beach is *packed*, and there are boats in every shot.", "crowd on the sand; slow push-in", "crowd murmur (clip sound)", "New clip IMG_2671. Strangers blurred."),
  ("5 · The reality", "Low water", 268, 278, [("IMG_2682.HEIC", 0)], "crop", .92, [("chapter", "Autumn = low water")],

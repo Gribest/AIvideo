@@ -266,12 +266,12 @@ From the 67 s clip.
 - act: 5 · The reality
 - status: outline
 - duration: 16s
-- scene: e301100b-d690-4a43-af25-b27216893da6.jpg, IMG_2747.MOV (compare)
+- scene: IMG_2674.heic, IMG_2747.MOV (compare)
 - voiceover: Most photos online are shot at sunrise and edited. On a normal day it's greyer, flatter, and busier.
 - reads: split slides open from the centre; labels (241s)
 - sound: swoosh on the split
 
-The comparison frame: your edited photo vs the raw overcast clip.
+Sunny postcard photo of the boats vs the raw overcast clip (your photo removed, as asked).
 
 ## Frame 24: Crowds (4:16-4:28)
 - act: 5 · The reality

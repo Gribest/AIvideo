@@ -1,0 +1,10 @@
+assets/prep/
+assets/plates/
+assets/nat/
+assets/vo/*.wav
+assets/audio/music_long.wav
+output/
+renders/
+snapshots/
+node_modules/
+.hyperframes/
