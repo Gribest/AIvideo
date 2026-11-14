@@ -3,9 +3,12 @@
 Master: `output/tres-leches-reel.mp4` (1080x1920, 30 fps, SDR, 19.2 s, original audio at about -14 LUFS).
 
 ## Instagram caption options
-1. the whole squad stood in the cold for ONE slice 😭💚 worth it?? #pistachio #amsterdamfood #foodie #dessert #foodreels
-2. POV: your friends see you cutting the pistachio cake 👀🔪 #pistachiocake #amsterdam #foodtok #sweettooth #reelsinstagram
-3. tag the friend who'd wait in the cold for this 💚👇 #pistachio #amsterdameats #dessertlover #foodreels #viralfood
+1. We waited outside in the cold for THIS 😭💚 Amsterdam's viral pistachio tres leches… worth the hype? 👇
+2. The whole squad lined up for ONE slice 🫣 Viral tres leches in Amsterdam, would you try it? 🇳🇱
+3. Tag the friend you'd wait in the cold with for this 👇💚 Viral tres leches, Amsterdam edition
+
+Hashtags (pick 5): #tresleches #amsterdamfood #amsterdam #viralfood #dessert
+Extras to rotate in: #pistachio #foodreels #amsterdameats #foodie #netherlands
 
 ## To help it go viral
 - Post the no-music version and add a sound that's trending right now (tap the ↗ arrow next to sounds in Reels). Trending audio gets a big reach boost.
