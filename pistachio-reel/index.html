@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Pistachio Slice Reel</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Noto Color Emoji"; src: url("assets/fonts/NotoColorEmoji.ttf"); }
+      :root { --pist: #B7E35A; --ink: #ffffff; --dark: #10140a; --font: "Inter", "Noto Color Emoji", sans-serif; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--dark); }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); background: var(--dark); }
+      .frame { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      .shot { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 40; pointer-events: none; }
+      /* All text in the 168–1330 px band, clear of the right-hand action rail. */
+      .cap { position: absolute; left: 50px; width: 900px; height: 300px; display: flex; align-items: center; justify-content: center; text-align: center; }
+      .capin { font-weight: 900; font-size: 100px; line-height: 1.04; letter-spacing: -0.015em; color: var(--ink);
+        -webkit-text-stroke: 11px rgba(0,0,0,0.9); paint-order: stroke fill; text-shadow: 0 8px 22px rgba(0,0,0,0.5); }
+      .key { color: var(--pist); }
+      .hook { position: absolute; left: 50px; width: 900px; top: 200px; height: 360px; display: flex; align-items: center; justify-content: center; }
+      .hookin { background: #fff; color: var(--dark); font-weight: 900; font-size: 80px; line-height: 1.06; text-align: center;
+        padding: 24px 40px 28px; border-radius: 26px; box-shadow: 0 14px 40px rgba(0,0,0,0.4); letter-spacing: -0.02em; }
+      .hookin .key { color: #2f7d12; }
+      .cta { position: absolute; left: 50px; width: 900px; top: 200px; height: 380px; display: flex; align-items: center; justify-content: center; }
+      .ctain { display: flex; flex-direction: column; align-items: center; gap: 22px; }
+      .ctaq { background: var(--pist); color: var(--dark); font-weight: 900; font-size: 92px; line-height: 1; padding: 22px 44px 30px; border-radius: 28px;
+        letter-spacing: -0.02em; box-shadow: 0 16px 44px rgba(0,0,0,0.45); }
+      .ctas { color: #fff; font-weight: 900; font-size: 84px; -webkit-text-stroke: 11px rgba(0,0,0,0.9); paint-order: stroke fill; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="13.3" data-width="1080" data-height="1920">
+      <div id="w1" class="frame" style="z-index:1"><video id="v1" class="clip shot" src="assets/shots/s1_hook.mp4" data-start="0" data-duration="1.5" data-track-index="0" muted playsinline></video></div>
+      <div id="w2" class="frame" style="z-index:2"><video id="v2" class="clip shot" src="assets/shots/s2_cut.mp4" data-start="1.5" data-duration="2.5" data-track-index="0" muted playsinline></video></div>
+      <div id="w3" class="frame" style="z-index:3;transform-origin:50% 75%"><video id="v3" class="clip shot" src="assets/shots/s3_lift.mp4" data-start="4" data-duration="2" data-track-index="0" muted playsinline></video></div>
+      <div id="w4" class="frame" style="z-index:4;transform-origin:42% 68%"><video id="v4" class="clip shot" src="assets/shots/s4_layers.mp4" data-start="6" data-duration="3" data-track-index="0" muted playsinline></video></div>
+      <div id="w5" class="frame" style="z-index:5;transform-origin:45% 45%"><video id="v5" class="clip shot" src="assets/shots/s5_hand.mp4" data-start="9" data-duration="2" data-track-index="0" muted playsinline></video></div>
+      <div id="w6" class="frame" style="z-index:6;transform-origin:50% 45%"><video id="v6" class="clip shot" src="assets/shots/s6_end.mp4" data-start="11" data-duration="2.3" data-track-index="0" muted playsinline></video></div>
+      <div id="flash"></div>
+
+      <div id="hook" class="clip hook" data-start="0" data-duration="2.6" data-track-index="1" data-track-kind="graphics" style="z-index:50"><div class="hookin">the whole squad<br>waiting for <span class="key">ONE</span> slice 😭</div></div>
+      <div id="c1" class="clip cap" data-start="2.65" data-duration="1.3" data-track-index="2" style="top:180px;z-index:50"><div class="capin">in the <span class="key">cold</span><br>for this 🥶</div></div>
+      <div id="c2" class="clip cap" data-start="4.05" data-duration="1.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin">wait for it…</div></div>
+      <div id="c3" class="clip cap" data-start="6.05" data-duration="2.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin">look at those<br><span class="key">layers</span> 🤤</div></div>
+      <div id="c4" class="clip cap" data-start="9.05" data-duration="1.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin"><span class="key">pistachio</span><br>overload 💚</div></div>
+      <div id="cta" class="clip cta" data-start="11.0" data-duration="2.3" data-track-index="3" data-track-kind="graphics" style="z-index:51"><div class="ctain"><div class="ctaq">worth the wait?</div><div class="ctas">comment 👇</div></div></div>
+
+      <audio id="music" class="clip" src="assets/audio/music_bed.wav" data-start="0" data-duration="13.3" data-track-index="10" data-volume="0.55"></audio>
+      <audio id="amb" class="clip" src="assets/audio/ambience.wav" data-start="0" data-duration="13.3" data-track-index="11" data-volume="0.45"></audio>
+      <audio id="sfx_w1" class="clip" src="assets/audio/whoosh.wav" data-start="1.3" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx_w2" class="clip" src="assets/audio/whoosh.wav" data-start="3.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx_hit" class="clip" src="assets/audio/hit.wav" data-start="6.0" data-duration="1.0" data-track-index="13" data-volume="0.8"></audio>
+      <audio id="sfx_w3" class="clip" src="assets/audio/whoosh.wav" data-start="8.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx_w4" class="clip" src="assets/audio/whoosh.wav" data-start="10.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
+      <audio id="sfx_p1" class="clip" src="assets/audio/pop.wav" data-start="0.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
+      <audio id="sfx_p2" class="clip" src="assets/audio/pop.wav" data-start="2.65" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
+      <audio id="sfx_p3" class="clip" src="assets/audio/pop.wav" data-start="4.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
+      <audio id="sfx_p4" class="clip" src="assets/audio/pop.wav" data-start="9.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
+      <audio id="sfx_p5" class="clip" src="assets/audio/pop.wav" data-start="11.05" data-duration="0.12" data-track-index="14" data-volume="0.6"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // camera: slow push on the hook, punch on each cut, slow-mo push into the layers
+      tl.fromTo("#w1", { scale: 1.0 }, { scale: 1.08, duration: 1.5, ease: "none" }, 0);
+      tl.fromTo("#w2", { scale: 1.12 }, { scale: 1.0, duration: 0.35, ease: "expo.out" }, 1.5);
+      [1.5, 2.0, 2.5, 3.0, 3.5].forEach((t, i) => tl.fromTo("#w2", { scale: 1.06 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, t + (i ? 0 : 0.36)));
+      tl.fromTo("#w3", { scale: 1.0 }, { scale: 1.22, duration: 2.0, ease: "power2.inOut" }, 4.0);
+      tl.fromTo("#w4", { scale: 1.45 }, { scale: 1.2, duration: 3.0, ease: "power2.out" }, 6.0);
+      tl.fromTo("#flash", { opacity: 0.85 }, { opacity: 0, duration: 0.25, ease: "power2.out", immediateRender: false }, 6.0);
+      tl.fromTo("#w5", { scale: 1.15 }, { scale: 1.0, duration: 0.4, ease: "expo.out" }, 9.0);
+      tl.fromTo("#w6", { scale: 1.12 }, { scale: 1.0, duration: 0.5, ease: "expo.out" }, 11.0);
+      // text
+      tl.to("#hook .hookin", { opacity: 0, scale: 0.92, duration: 0.12, ease: "power2.in" }, 2.46);
+      [["#c1", 2.65, 3.95], ["#c2", 4.05, 5.95], ["#c3", 6.05, 8.95], ["#c4", 9.05, 10.95]].forEach(([id, a, b]) => {
+        tl.fromTo(id + " .capin", { scale: 0.55, opacity: 0, y: 30 }, { scale: 1, opacity: 1, y: 0, duration: 0.2, ease: "back.out(2.2)" }, a);
+        tl.to(id + " .capin", { opacity: 0, scale: 0.95, duration: 0.12, ease: "power2.in" }, b - 0.13);
+      });
+      tl.fromTo("#cta .ctaq", { scale: 2.6, opacity: 0, rotation: -8 }, { scale: 1, opacity: 1, rotation: -3, duration: 0.22, ease: "power4.in" }, 11.05);
+      tl.fromTo("#cta .ctas", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(2)" }, 11.2);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
