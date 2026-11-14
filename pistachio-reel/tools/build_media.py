@@ -32,7 +32,7 @@ for name, a, b, sp in CUTS:
 parts, labels = [], []
 for i, (name, a, b, sp) in enumerate(CUTS):
     parts.append(f"[0:a:0]atrim={a}:{b},asetpts=PTS-STARTPTS,atempo={sp}[a{i}]"); labels.append(f"[a{i}]")
-fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(CUTS)}:v=0:a=1,loudnorm=I=-24:TP=-3[out]"
+fc = ";".join(parts) + ";" + "".join(labels) + f"concat=n={len(CUTS)}:v=0:a=1,loudnorm=I=-14:TP=-1.5[out]"
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", RAW, "-filter_complex", fc, "-map", "[out]", "-ar", "44100", "-ac", "2",
                 "assets/audio/ambience.wav"], check=True)
 print("ambience done")

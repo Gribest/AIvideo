@@ -20,7 +20,7 @@
         -webkit-text-stroke: 11px rgba(0,0,0,0.9); paint-order: stroke fill; text-shadow: 0 8px 22px rgba(0,0,0,0.5); }
       .key { color: var(--pist); }
       .hook { position: absolute; left: 50px; width: 900px; top: 200px; height: 360px; display: flex; align-items: center; justify-content: center; }
-      .hookin { background: #fff; color: var(--dark); font-weight: 900; font-size: 80px; line-height: 1.06; text-align: center;
+      .hookin { background: #fff; color: var(--dark); font-weight: 900; font-size: 88px; line-height: 1.04; text-align: center;
         padding: 24px 40px 28px; border-radius: 26px; box-shadow: 0 14px 40px rgba(0,0,0,0.4); letter-spacing: -0.02em; }
       .hookin .key { color: #2f7d12; }
       .cta { position: absolute; left: 50px; width: 900px; top: 200px; height: 380px; display: flex; align-items: center; justify-content: center; }
@@ -40,25 +40,8 @@
       <div id="w6" class="frame" style="z-index:6;transform-origin:50% 45%"><video id="v6" class="clip shot" src="assets/shots/s6_end.mp4" data-start="11" data-duration="2.3" data-track-index="0" muted playsinline></video></div>
       <div id="flash"></div>
 
-      <div id="hook" class="clip hook" data-start="0" data-duration="2.6" data-track-index="1" data-track-kind="graphics" style="z-index:50"><div class="hookin">the whole squad<br>waiting for <span class="key">ONE</span> slice 😭</div></div>
-      <div id="c1" class="clip cap" data-start="2.65" data-duration="1.3" data-track-index="2" style="top:180px;z-index:50"><div class="capin">in the <span class="key">cold</span><br>for this 🥶</div></div>
-      <div id="c2" class="clip cap" data-start="4.05" data-duration="1.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin">wait for it…</div></div>
-      <div id="c3" class="clip cap" data-start="6.05" data-duration="2.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin">look at those<br><span class="key">layers</span> 🤤</div></div>
-      <div id="c4" class="clip cap" data-start="9.05" data-duration="1.9" data-track-index="2" style="top:180px;z-index:50"><div class="capin"><span class="key">pistachio</span><br>overload 💚</div></div>
-      <div id="cta" class="clip cta" data-start="11.0" data-duration="2.3" data-track-index="3" data-track-kind="graphics" style="z-index:51"><div class="ctain"><div class="ctaq">worth the wait?</div><div class="ctas">comment 👇</div></div></div>
-
-      <audio id="music" class="clip" src="assets/audio/music_bed.wav" data-start="0" data-duration="13.3" data-track-index="10" data-volume="0.55"></audio>
-      <audio id="amb" class="clip" src="assets/audio/ambience.wav" data-start="0" data-duration="13.3" data-track-index="11" data-volume="0.45"></audio>
-      <audio id="sfx_w1" class="clip" src="assets/audio/whoosh.wav" data-start="1.3" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
-      <audio id="sfx_w2" class="clip" src="assets/audio/whoosh.wav" data-start="3.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
-      <audio id="sfx_hit" class="clip" src="assets/audio/hit.wav" data-start="6.0" data-duration="1.0" data-track-index="13" data-volume="0.8"></audio>
-      <audio id="sfx_w3" class="clip" src="assets/audio/whoosh.wav" data-start="8.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
-      <audio id="sfx_w4" class="clip" src="assets/audio/whoosh.wav" data-start="10.8" data-duration="0.4" data-track-index="12" data-volume="0.5"></audio>
-      <audio id="sfx_p1" class="clip" src="assets/audio/pop.wav" data-start="0.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
-      <audio id="sfx_p2" class="clip" src="assets/audio/pop.wav" data-start="2.65" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
-      <audio id="sfx_p3" class="clip" src="assets/audio/pop.wav" data-start="4.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
-      <audio id="sfx_p4" class="clip" src="assets/audio/pop.wav" data-start="9.05" data-duration="0.12" data-track-index="14" data-volume="0.5"></audio>
-      <audio id="sfx_p5" class="clip" src="assets/audio/pop.wav" data-start="11.05" data-duration="0.12" data-track-index="14" data-volume="0.6"></audio>
+      <div id="hook" class="clip hook" data-start="0" data-duration="13.3" data-track-index="1" data-track-kind="graphics" style="z-index:50"><div class="hookin">I tried the <span class="key">VIRAL</span><br>Trashlicious in<br>Amsterdam 🇳🇱</div></div>
+      <audio id="amb" class="clip" src="assets/audio/ambience.wav" data-start="0" data-duration="13.3" data-track-index="11" data-volume="1"></audio>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
@@ -72,13 +55,6 @@
       tl.fromTo("#w5", { scale: 1.15 }, { scale: 1.0, duration: 0.4, ease: "expo.out" }, 9.0);
       tl.fromTo("#w6", { scale: 1.12 }, { scale: 1.0, duration: 0.5, ease: "expo.out" }, 11.0);
       // text
-      tl.to("#hook .hookin", { opacity: 0, scale: 0.92, duration: 0.12, ease: "power2.in" }, 2.46);
-      [["#c1", 2.65, 3.95], ["#c2", 4.05, 5.95], ["#c3", 6.05, 8.95], ["#c4", 9.05, 10.95]].forEach(([id, a, b]) => {
-        tl.fromTo(id + " .capin", { scale: 0.55, opacity: 0, y: 30 }, { scale: 1, opacity: 1, y: 0, duration: 0.2, ease: "back.out(2.2)" }, a);
-        tl.to(id + " .capin", { opacity: 0, scale: 0.95, duration: 0.12, ease: "power2.in" }, b - 0.13);
-      });
-      tl.fromTo("#cta .ctaq", { scale: 2.6, opacity: 0, rotation: -8 }, { scale: 1, opacity: 1, rotation: -3, duration: 0.22, ease: "power4.in" }, 11.05);
-      tl.fromTo("#cta .ctas", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.25, ease: "back.out(2)" }, 11.2);
       window.__timelines["main"] = tl;
       tl.seek(0);
     </script>
