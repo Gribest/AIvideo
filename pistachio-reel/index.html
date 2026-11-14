@@ -3,58 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1080, height=1920" />
-    <title>Pistachio Slice Reel</title>
+    <title>Trashlicious Reel</title>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
     <style>
-      @font-face { font-family: "Noto Color Emoji"; src: url("assets/fonts/NotoColorEmoji.ttf"); }
-      :root { --pist: #B7E35A; --ink: #ffffff; --dark: #10140a; --font: "Inter", "Noto Color Emoji", sans-serif; }
+      @font-face { font-family: "Lobster"; src: url("assets/fonts/Lobster-Regular.ttf"); }
+      @font-face { font-family: "Caveat Brush"; src: url("assets/fonts/CaveatBrush-Regular.ttf"); }
+      :root { --fill: #9BE15D; --fill2: #D9FF8A; --edge: #123B0C; --dark: #10140a; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--dark); }
-      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: var(--font); background: var(--dark); }
-      .frame { position: absolute; inset: 0; transform-origin: 50% 55%; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--dark); }
+      #cam { position: absolute; inset: 0; transform-origin: 45% 62%; }
       .shot { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
-      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 40; pointer-events: none; }
-      /* All text in the 168–1330 px band, clear of the right-hand action rail. */
-      .cap { position: absolute; left: 50px; width: 900px; height: 300px; display: flex; align-items: center; justify-content: center; text-align: center; }
-      .capin { font-weight: 900; font-size: 100px; line-height: 1.04; letter-spacing: -0.015em; color: var(--ink);
-        -webkit-text-stroke: 11px rgba(0,0,0,0.9); paint-order: stroke fill; text-shadow: 0 8px 22px rgba(0,0,0,0.5); }
-      .key { color: var(--pist); }
-      .hook { position: absolute; left: 50px; width: 900px; top: 200px; height: 360px; display: flex; align-items: center; justify-content: center; }
-      .hookin { background: #fff; color: var(--dark); font-weight: 900; font-size: 88px; line-height: 1.04; text-align: center;
-        padding: 24px 40px 28px; border-radius: 26px; box-shadow: 0 14px 40px rgba(0,0,0,0.4); letter-spacing: -0.02em; }
-      .hookin .key { color: #2f7d12; }
-      .cta { position: absolute; left: 50px; width: 900px; top: 200px; height: 380px; display: flex; align-items: center; justify-content: center; }
-      .ctain { display: flex; flex-direction: column; align-items: center; gap: 22px; }
-      .ctaq { background: var(--pist); color: var(--dark); font-weight: 900; font-size: 92px; line-height: 1; padding: 22px 44px 30px; border-radius: 28px;
-        letter-spacing: -0.02em; box-shadow: 0 16px 44px rgba(0,0,0,0.45); }
-      .ctas { color: #fff; font-weight: 900; font-size: 84px; -webkit-text-stroke: 11px rgba(0,0,0,0.9); paint-order: stroke fill; }
+      /* Title block: same build as the reference (bold script + handwritten line), green instead of purple. */
+      #title { position: absolute; left: 0; top: 330px; width: 1080px; height: 330px; z-index: 50; }
+      .tin { position: absolute; inset: 0; transform: rotate(-3deg); }
+      .t1 { position: absolute; left: 0; width: 1080px; top: 0; text-align: center; font-family: "Lobster", cursive; font-size: 142px; line-height: 1;
+        letter-spacing: -0.01em; color: var(--fill);
+        background: linear-gradient(180deg, var(--fill2) 0%, var(--fill) 55%, #6CC23A 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0; filter: drop-shadow(0 0 0 var(--edge)) drop-shadow(5px 0 0 var(--edge)) drop-shadow(-5px 0 0 var(--edge)) drop-shadow(0 5px 0 var(--edge)) drop-shadow(0 -5px 0 var(--edge)) drop-shadow(6px 9px 0 var(--edge)); }
+      .t2 { position: absolute; left: 0; width: 1080px; top: 122px; text-align: center; font-family: "Caveat Brush", cursive; font-size: 158px; line-height: 1;
+        color: #fff; -webkit-text-stroke: 12px #0b0b0b; paint-order: stroke fill; text-shadow: 4px 6px 0 rgba(0,0,0,0.35); }
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="13.3" data-width="1080" data-height="1920">
-      <div id="w1" class="frame" style="z-index:1"><video id="v1" class="clip shot" src="assets/shots/s1_hook.mp4" data-start="0" data-duration="1.5" data-track-index="0" muted playsinline></video></div>
-      <div id="w2" class="frame" style="z-index:2"><video id="v2" class="clip shot" src="assets/shots/s2_cut.mp4" data-start="1.5" data-duration="2.5" data-track-index="0" muted playsinline></video></div>
-      <div id="w3" class="frame" style="z-index:3;transform-origin:50% 75%"><video id="v3" class="clip shot" src="assets/shots/s3_lift.mp4" data-start="4" data-duration="2" data-track-index="0" muted playsinline></video></div>
-      <div id="w4" class="frame" style="z-index:4;transform-origin:42% 68%"><video id="v4" class="clip shot" src="assets/shots/s4_layers.mp4" data-start="6" data-duration="3" data-track-index="0" muted playsinline></video></div>
-      <div id="w5" class="frame" style="z-index:5;transform-origin:45% 45%"><video id="v5" class="clip shot" src="assets/shots/s5_hand.mp4" data-start="9" data-duration="2" data-track-index="0" muted playsinline></video></div>
-      <div id="w6" class="frame" style="z-index:6;transform-origin:50% 45%"><video id="v6" class="clip shot" src="assets/shots/s6_end.mp4" data-start="11" data-duration="2.3" data-track-index="0" muted playsinline></video></div>
-      <div id="flash"></div>
-
-      <div id="hook" class="clip hook" data-start="0" data-duration="13.3" data-track-index="1" data-track-kind="graphics" style="z-index:50"><div class="hookin">I tried the <span class="key">VIRAL</span><br>Trashlicious in<br>Amsterdam 🇳🇱</div></div>
-      <audio id="amb" class="clip" src="assets/audio/ambience.wav" data-start="0" data-duration="13.3" data-track-index="11" data-volume="1"></audio>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="19.2" data-width="1080" data-height="1920">
+      <div id="cam"><video id="clip" class="clip shot" src="assets/shots/full.mp4" data-start="0" data-duration="19.2" data-track-index="0" muted playsinline></video></div>
+      <div id="title" class="clip" data-start="0" data-duration="19.2" data-track-index="1" data-track-kind="graphics">
+        <div class="tin"><div class="t1">Viral Trashlicious</div><div class="t2">Amsterdam</div></div>
+      </div>
+      <audio id="orig" class="clip" src="assets/audio/original.wav" data-start="0" data-duration="19.2" data-track-index="10" data-volume="1"></audio>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
-      // camera: slow push on the hook, punch on each cut, slow-mo push into the layers
-      tl.fromTo("#w1", { scale: 1.0 }, { scale: 1.08, duration: 1.5, ease: "none" }, 0);
-      tl.fromTo("#w2", { scale: 1.12 }, { scale: 1.0, duration: 0.35, ease: "expo.out" }, 1.5);
-      [1.5, 2.0, 2.5, 3.0, 3.5].forEach((t, i) => tl.fromTo("#w2", { scale: 1.06 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, t + (i ? 0 : 0.36)));
-      tl.fromTo("#w3", { scale: 1.0 }, { scale: 1.22, duration: 2.0, ease: "power2.inOut" }, 4.0);
-      tl.fromTo("#w4", { scale: 1.45 }, { scale: 1.2, duration: 3.0, ease: "power2.out" }, 6.0);
-      tl.fromTo("#flash", { opacity: 0.85 }, { opacity: 0, duration: 0.25, ease: "power2.out", immediateRender: false }, 6.0);
-      tl.fromTo("#w5", { scale: 1.15 }, { scale: 1.0, duration: 0.4, ease: "expo.out" }, 9.0);
-      tl.fromTo("#w6", { scale: 1.12 }, { scale: 1.0, duration: 0.5, ease: "expo.out" }, 11.0);
-      // text
+      // gentle push-in while the slice comes out, then back out for the hand-over
+      tl.to("#cam", { scale: 1.14, duration: 2.2, ease: "power2.inOut" }, 8.6);
+      tl.to("#cam", { scale: 1.0, duration: 1.2, ease: "power2.inOut" }, 13.4);
       window.__timelines["main"] = tl;
       tl.seek(0);
     </script>

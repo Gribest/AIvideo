@@ -1,8 +1,6 @@
 # Pistachio slice reel: posting kit
 
-Masters (1080x1920, 30 fps, SDR, 13.3 s):
-- `output/pistachio-reel.mp4`: original synthesized beat + street sound + SFX, about -14 LUFS.
-- `output/pistachio-reel-no-music.mp4`: street sound + SFX only. Use this one with a trending sound in the Instagram app.
+Master: `output/trashlicious-reel.mp4` (1080x1920, 30 fps, SDR, 19.2 s, original audio at about -14 LUFS).
 
 ## Instagram caption options
 1. the whole squad stood in the cold for ONE slice 😭💚 worth it?? #pistachio #amsterdamfood #foodie #dessert #foodreels
@@ -18,5 +16,4 @@ Masters (1080x1920, 30 fps, SDR, 13.3 s):
 ## Rebuilding
 1. Put the source clip at `raw/IMG_8593.mov`.
 2. `python3 tools/build_media.py` → tone-mapped, graded, re-timed shots + ambience.
-3. `python3 tools/make_audio.py` → original 120 BPM bed + SFX.
 4. `npx hyperframes check`, then `npx hyperframes render --sdr --output output/pistachio-reel.mp4`.
