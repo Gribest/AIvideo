@@ -1,6 +1,6 @@
 # Pistachio slice reel: posting kit
 
-Master: `output/trashlicious-reel.mp4` (1080x1920, 30 fps, SDR, 19.2 s, original audio at about -14 LUFS).
+Master: `output/tres-leches-reel.mp4` (1080x1920, 30 fps, SDR, 19.2 s, original audio at about -14 LUFS).
 
 ## Instagram caption options
 1. the whole squad stood in the cold for ONE slice 😭💚 worth it?? #pistachio #amsterdamfood #foodie #dessert #foodreels
