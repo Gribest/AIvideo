@@ -6,6 +6,97 @@
       "sourceType": "github",
       "skillPath": "skills/hyperframes/SKILL.md",
       "computedHash": "373b4b19ec8564cbf23f7f3b8399ee9fb4d92609d66948d4b98c13ebe63bbcbc"
+    },
+    "ig-audit": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-audit/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "ece765baf4a08ef74047c5d3d9ca522824db29cf46cde9329acc690dd0a60bb0"
+    },
+    "ig-caption": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-caption/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "44bd93bfbceabebd0eac6742aecd948be4c3aa97c57f830845e1b9b6450b55b6"
+    },
+    "ig-carousel": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-carousel/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "de943e5720ea6e08c4aa0e56ed3f87994d83fae238105e3fe31acc68d8ff44f7"
+    },
+    "ig-comment": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-comment/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "c872ba255cd70f6827eb22b45d7caec32814dda283f8346f6bfb4a021947202e"
+    },
+    "ig-dm": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-dm/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "6ce9eaf37997e90e79fc190edcd7b5d3e4d0d0735238a9ae7fd8b08a2ace485b"
+    },
+    "ig-human": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-human/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "bd66947ff98edc0ad73bb30f614b3a0060d89b864656bf1401bd472694483b93"
+    },
+    "ig-plan": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-plan/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "4e42e13b8a044c23083db7e88d28f0465986602725246a8eacda433d53079918"
+    },
+    "ig-profile": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-profile/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "a2bda7e39066b71f89a6185a640f4cb5fec1c027e9ff3afe40787a965a3e1e15"
+    },
+    "ig-reel": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-reel/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "fc0374ccc88485d999fa0e2dcd4c7c3932d6949e58008cb6e6f1c484015c5631"
+    },
+    "ig-reply": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-reply/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "926f324f71939e368da3011aaa2ca6aef4b9f1219d29315f732c3dc1c992972f"
+    },
+    "ig-repurpose": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-repurpose/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "545f240a5f13657db9f9245f286d4a01e145718ef49d38ff2a2f0cc84322eb19"
+    },
+    "ig-story": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-story/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "91ab3d60fa7ca87034767d147c31fa3f3db9dca11d6d83296aaede934a885637"
+    },
+    "ig-viral": {
+      "source": "Jakeschincariol/instagram-agent-skill",
+      "sourceType": "github",
+      "skillPath": "skills/ig-viral/SKILL.md",
+      "ref": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+      "computedHash": "22c2e46a442b4f992d9876aaa72f8f56502dd54a08291f5572afb42ccb16f616"
     }
   }
 }
